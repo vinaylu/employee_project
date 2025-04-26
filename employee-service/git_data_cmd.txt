@@ -78,7 +78,8 @@ git pull : download only latest changes from central repo to local repo
 Here is the extracted text from the image:
 
 ```
-==========================
+==============
+
 What is .gitignore file ?
 
 => It is used to specify files and folder to skip from git operations.
