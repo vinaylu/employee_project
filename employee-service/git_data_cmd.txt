@@ -1,0 +1,94 @@
+Here is the extracted text from the image:
+
+```
+Git Hub
+=======
+
+=> Git is a version control software
+
+-> Git Hub is a platform which is used to store project related files / source code at one place.
+
+-> In git hub, we can create source code repository to store project code.
+
+-> All the developers can connect to project repository to store all the source code
+   (Code Integration will become very easy)
+
+-> Git Hub repository will monitor all code changes
+    - who modified
+    - when modified
+    - what modified
+    - how modified
+```
+
+Here is the extracted text from the image:
+
+```
+====================
+Environment Setup
+====================
+
+1) Create account in www.github.com (free of cost)
+
+2) Download & Install 'git client' software in our system
+
+       URL : https://git-scm.com/downloads
+
+3) Open Git bash and configure your name and your email
+
+       $ git config --global user.name "your-name"
+
+       $ git config --global user.email "your-email"
+
+Note: Configuring name and email is just one time process in git bash.
+```
+
+git init : Initialize working tree  
+
+git status : display files status (staged and un-st  
+
+git add : Add file(s) to staging area  
+        git add <file-name>  
+        git add .  
+
+git commit : Commit staged files to local repo  
+        git commit -m <msg>  
+
+git push : publish local commits to central repo  
+
+git restore : to unstage + to discard file changes  
+
+git log : to display commit history  
+
+git rm : to remove file  
+
+Note: After `git rm` execution we need to execute commit and  
+push to delete file from central repo.  
+
+clone - is used download the entire project
+pull - is used to download only latest changes 
+
+git clone : to download central repo to local  
+
+    git clone <repo-url>  
+
+Ex: https://github.com/ashokitschool/01_products_api.git  
+
+git pull : download only latest changes from central repo to local repo  
+
+Here is the extracted text from the image:
+
+```
+==========================
+What is .gitignore file ?
+==========================
+
+=> It is used to specify files and folder to skip from git operations.
+
+ex:
+
+.settings
+.classpath
+.project
+
+target/
+```
